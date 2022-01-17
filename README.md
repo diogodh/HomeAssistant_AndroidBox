@@ -33,7 +33,9 @@ Cada comando deve ser feito e aguardar q esteja concluido p fazer o proximo. **S
 Faz cada um destes 3 comandos de cada vez
 
 `sed -i "s/${$(< /etc/hostname)}/${armhassio}/g" /etc/hostname`
+
 `sed -i "s/${$(< /etc/hostname)}/${armhassio}/g" /etc/hosts`
+
 `hostname "${armhassio}"`
 
 > Aqui fizeste 3 comandos para atualizar o hostname. 
@@ -67,8 +69,11 @@ Este comando apesar de estar em várias linhas é todo numa só linha
 Faz cada um destes 4 comandos de cada vez
 
 `echo -e "\n[device]" >> "/etc/NetworkManager/NetworkManager.conf"`
+
 `echo "wifi.scan-rand-mac-address=no"  >> "/etc/NetworkManager/NetworkManager.conf"`
+
 `echo -e "\n[connection]"  >> "/etc/NetworkManager/NetworkManager.conf"`
+
 `echo "wifi.clone-mac-address=preserve"  >> "/etc/NetworkManager/NetworkManager.conf"`
 
 > Estes comandos sao para configurar corretamete a rede
