@@ -115,4 +115,4 @@ Processo:
 > Com este comando concluímos a instalação do Home Assistant. Vai perguntar que tipo de sistema operativo temos, deves escolher  **qemuarm-64**
 
 
-**Se tudo correr bem, vai ser instalado sem erros, e acessivel pela rede**
+**Se tudo correr bem, vai ser instalado sem erros, e acessivel por qualquer dispositivo na mesma rede (computador, tablet, smartphone, etc). Geralmente o endereço para aceder é http://homeassistant.local:8123**
