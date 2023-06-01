@@ -3,7 +3,7 @@
 Tutorial de como instalar o Home Assistant https://www.home-assistant.io/ nas Android Box genéricas/convencionais.
 É um método não suportado oficialmente https://www.home-assistant.io/installation/ e encontra-se descrito globalmente em https://github.com/home-assistant/os-agent
 
-Pré-requesitos:
+Pré-requisitos:
 - Ter instalado o sitema operativo Armbian https://www.armbian.com/ na Box Android (difícil).
 - Acesso à Internet via cabo de rede (ethernet)
 
@@ -12,7 +12,7 @@ Processo:
 - Em ambiente Linux, vais executar vários comandos para instalar o Home Assistant.
 - Os comandos devem ser sequenciais, ou seja, cada comando tem de ser executado com sucesso antes de se avançar para o próximo.
 
-**Sempre q encontrares erros, pede ajuda, sejam em foruns, reddit, telegram, discord, etc. Avançar após erros não adiante**
+**Sempre q encontrares erros, pede ajuda, sejam em foruns, reddit, telegram, discord, etc. Avançar após erros não adianta**
 
 
 1.
@@ -98,7 +98,7 @@ Processo:
 11.
 `gdbus introspect --system --dest io.hass.os --object-path /io/hass/os`
 
-> O resultado deste comando vai ser diversas linhas com conteúdo dificil de compreender, que começam com **" node /io/hass/os…"**, o **importante é que não tenha nenhum ERRO/ERROR**. Se não aparecerem errros, avança, se aparecerem, já sabes, pede ajuda!
+> O resultado deste comando vai ser diversas linhas com conteúdo dificil de compreender, que começam com **"node /io/hass/os…"**, o **importante é que não tenha nenhum ERRO/ERROR**. Se não aparecerem errros, avança, se aparecerem, já sabes, pede ajuda!
 
 
 
@@ -115,5 +115,4 @@ Processo:
 > Com este comando concluímos a instalação do Home Assistant. Vai perguntar que tipo de sistema operativo temos, deves escolher  **qemuarm-64**
 
 
-
-**Se tudo correr bem, vai ser instalado sem erros, e acessivel pela rede **
+**Se tudo correr bem, vai ser instalado sem erros, e acessivel pela rede**
